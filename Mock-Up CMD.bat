@@ -6,5 +6,5 @@ echo.
 set prompt=
 set /p prompt="%cd%>"
 if "%prompt%"=="" goto nocmd
-call %prompt%
+%prompt%
 goto top
